@@ -1,5 +1,0 @@
-_background_
-bottle
-doorSew
-gap
-stationSew

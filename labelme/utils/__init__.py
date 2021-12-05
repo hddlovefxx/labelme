@@ -2,6 +2,12 @@
 
 from ._io import lblsave
 
+from .draw import label_colormap
+from .draw import _validate_colormap
+from .draw import label2rgb
+from .draw import draw_label
+from .draw import draw_instances
+
 from .image import apply_exif_orientation
 from .image import img_arr_to_b64
 from .image import img_b64_to_arr
