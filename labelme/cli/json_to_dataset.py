@@ -56,7 +56,7 @@ def main():
 
             mask_dst = img_as_ubyte(lbl)  # mask_pic
             print('pic2_deep:', mask_dst.dtype)
-            cv2.imwrite(mask_save2png_path + '\\' + save_file_name + '_label.png', mask_dst*50)
+            cv2.imwrite(mask_save2png_path + '\\' + save_file_name + '_label.png', mask_dst*255)
   
             with open(osp.join(out_dir1, 'label_names.txt'), 'w') as f:
                 for lbl_name in lbl_names:
