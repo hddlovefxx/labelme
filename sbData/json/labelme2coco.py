@@ -8,4 +8,4 @@ labelme_folder = "E:/paper_exm/labelme/sbData/json/object1"
 save_json_path = "E:/paper_exm/labelme/sbData/json/coco/coco.json"
 
 # convert labelme annotations to coco
-labelme2coco(labelme_folder, save_json_path)
+labelme2coco.convert(labelme_folder, save_json_path)
